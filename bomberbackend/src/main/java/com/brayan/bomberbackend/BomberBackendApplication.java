@@ -1,4 +1,4 @@
-package com.brayan.bomber_backend;
+package com.brayan.bomberbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

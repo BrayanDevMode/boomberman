@@ -1,4 +1,4 @@
-package com.brayan.bomber_backend;
+package com.brayan.bomberbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
