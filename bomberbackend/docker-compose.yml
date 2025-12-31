@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: bomber_db
+    restart: always
+    environment:
+      - POSTGRES_USER=bomber_user
+      - POSTGRES_PASSWORD=bomber_pass
+      - POSTGRES_DB=bomber_db
+    ports:
+      - "5432:5432"
+    volumes:
+      # This ensures the data persists even if you stop the container.
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
