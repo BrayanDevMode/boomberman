@@ -35,3 +35,33 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Logs and Temporary Files ###
+*.log
+logs/
+*.tmp
+*.bak
+*.swp
+*~
+
+### OS-generated files  ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Docker and Local Database Data ###
+postgres_data/
+mysql_data/
+mongo_data/
+
+### SECURITY ###
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Local properties files containing real credentials
+application-local.properties
+secrets.properties
